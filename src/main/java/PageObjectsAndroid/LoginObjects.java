@@ -13,7 +13,7 @@ public class LoginObjects {
     public LoginObjects(AndroidDriver driver){
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
-    @AndroidFindBy(xpath = "//*[@resource-id='com.home.button.bottom:id/click_subtitle_textviews']")
+    @AndroidFindBy(xpath = "//*[@resource-id='com.home.button.bottom:id/click_subtitle_textview']")
     private MobileElement actionOnclick;
 
     @AndroidFindBy(xpath = "//*[@resource-id='com.home.button.bottom:id/layout_tuto']")
